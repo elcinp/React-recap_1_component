@@ -1,9 +1,12 @@
 import React from 'react'
+import Welcome from '../components/Welcome'
+import matrix from "../assets/morpheusreal.png"
 
 const About = () => {
     return (
         <div>
-            About
+            <h1>About</h1>
+            <Welcome name="Header" img={matrix}/>
         </div>
     )
 }
